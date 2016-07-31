@@ -7,23 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D44F6C1D4E2C0C0079F9E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D44F6B1D4E2C0C0079F9E4 /* main.m */; };
-		04D44F6F1D4E2C0C0079F9E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D44F6E1D4E2C0C0079F9E4 /* AppDelegate.m */; };
-		04D44F721D4E2C0C0079F9E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D44F711D4E2C0C0079F9E4 /* ViewController.m */; };
-		04D44F751D4E2C0D0079F9E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D44F731D4E2C0D0079F9E4 /* Main.storyboard */; };
+		049203611D4E3FFE00EE6116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049203451D4E3FFE00EE6116 /* AppDelegate.m */; };
+		049203621D4E3FFE00EE6116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492035C1D4E3FFE00EE6116 /* main.m */; };
 		04D44F771D4E2C0D0079F9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D44F761D4E2C0D0079F9E4 /* Assets.xcassets */; };
 		04D44F7A1D4E2C0D0079F9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D44F781D4E2C0D0079F9E4 /* LaunchScreen.storyboard */; };
 		10D51DC8FB1DD8BED2AA573A /* libPods-ElonNewBaiSiBDJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E02EADB45FE3CCD719863F6C /* libPods-ElonNewBaiSiBDJ.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		049203441D4E3FFE00EE6116 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		049203451D4E3FFE00EE6116 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0492035C1D4E3FFE00EE6116 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04D44F671D4E2C0C0079F9E4 /* ElonNewBaiSiBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElonNewBaiSiBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04D44F6B1D4E2C0C0079F9E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04D44F6D1D4E2C0C0079F9E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04D44F6E1D4E2C0C0079F9E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		04D44F701D4E2C0C0079F9E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04D44F711D4E2C0C0079F9E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		04D44F741D4E2C0D0079F9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D44F761D4E2C0D0079F9E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D44F791D4E2C0D0079F9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04D44F7B1D4E2C0D0079F9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +39,232 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		049203421D4E3FFE00EE6116 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				049203431D4E3FFE00EE6116 /* Application */,
+				049203461D4E3FFE00EE6116 /* Essence(精华) */,
+				0492034A1D4E3FFE00EE6116 /* FriendTrend(关注) */,
+				0492034E1D4E3FFE00EE6116 /* Main */,
+				049203521D4E3FFE00EE6116 /* Me(我) */,
+				049203561D4E3FFE00EE6116 /* New(新帖) */,
+				0492035A1D4E3FFE00EE6116 /* Other */,
+				0492035D1D4E3FFE00EE6116 /* Publish(发布) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		049203431D4E3FFE00EE6116 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				049203441D4E3FFE00EE6116 /* AppDelegate.h */,
+				049203451D4E3FFE00EE6116 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		049203461D4E3FFE00EE6116 /* Essence(精华) */ = {
+			isa = PBXGroup;
+			children = (
+				049203471D4E3FFE00EE6116 /* Controller */,
+				049203481D4E3FFE00EE6116 /* Model */,
+				049203491D4E3FFE00EE6116 /* View */,
+			);
+			path = "Essence(精华)";
+			sourceTree = "<group>";
+		};
+		049203471D4E3FFE00EE6116 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049203481D4E3FFE00EE6116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049203491D4E3FFE00EE6116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0492034A1D4E3FFE00EE6116 /* FriendTrend(关注) */ = {
+			isa = PBXGroup;
+			children = (
+				0492034B1D4E3FFE00EE6116 /* Controller */,
+				0492034C1D4E3FFE00EE6116 /* Model */,
+				0492034D1D4E3FFE00EE6116 /* View */,
+			);
+			path = "FriendTrend(关注)";
+			sourceTree = "<group>";
+		};
+		0492034B1D4E3FFE00EE6116 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0492034C1D4E3FFE00EE6116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0492034D1D4E3FFE00EE6116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0492034E1D4E3FFE00EE6116 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0492034F1D4E3FFE00EE6116 /* Controller */,
+				049203501D4E3FFE00EE6116 /* Model */,
+				049203511D4E3FFE00EE6116 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0492034F1D4E3FFE00EE6116 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049203501D4E3FFE00EE6116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049203511D4E3FFE00EE6116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049203521D4E3FFE00EE6116 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				049203531D4E3FFE00EE6116 /* Controller */,
+				049203541D4E3FFE00EE6116 /* Model */,
+				049203551D4E3FFE00EE6116 /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		049203531D4E3FFE00EE6116 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049203541D4E3FFE00EE6116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049203551D4E3FFE00EE6116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		049203561D4E3FFE00EE6116 /* New(新帖) */ = {
+			isa = PBXGroup;
+			children = (
+				049203571D4E3FFE00EE6116 /* Controller */,
+				049203581D4E3FFE00EE6116 /* Model */,
+				049203591D4E3FFE00EE6116 /* View */,
+			);
+			path = "New(新帖)";
+			sourceTree = "<group>";
+		};
+		049203571D4E3FFE00EE6116 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		049203581D4E3FFE00EE6116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049203591D4E3FFE00EE6116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0492035A1D4E3FFE00EE6116 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0492035B1D4E3FFE00EE6116 /* Category */,
+				0492035C1D4E3FFE00EE6116 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0492035B1D4E3FFE00EE6116 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0492035D1D4E3FFE00EE6116 /* Publish(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				0492035E1D4E3FFE00EE6116 /* Controller */,
+				0492035F1D4E3FFE00EE6116 /* Model */,
+				049203601D4E3FFE00EE6116 /* View */,
+			);
+			path = "Publish(发布)";
+			sourceTree = "<group>";
+		};
+		0492035E1D4E3FFE00EE6116 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0492035F1D4E3FFE00EE6116 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		049203601D4E3FFE00EE6116 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		04D44F5E1D4E2C0C0079F9E4 = {
 			isa = PBXGroup;
 			children = (
@@ -65,11 +286,7 @@
 		04D44F691D4E2C0C0079F9E4 /* ElonNewBaiSiBDJ */ = {
 			isa = PBXGroup;
 			children = (
-				04D44F6D1D4E2C0C0079F9E4 /* AppDelegate.h */,
-				04D44F6E1D4E2C0C0079F9E4 /* AppDelegate.m */,
-				04D44F701D4E2C0C0079F9E4 /* ViewController.h */,
-				04D44F711D4E2C0C0079F9E4 /* ViewController.m */,
-				04D44F731D4E2C0D0079F9E4 /* Main.storyboard */,
+				049203421D4E3FFE00EE6116 /* Classes */,
 				04D44F761D4E2C0D0079F9E4 /* Assets.xcassets */,
 				04D44F781D4E2C0D0079F9E4 /* LaunchScreen.storyboard */,
 				04D44F7B1D4E2C0D0079F9E4 /* Info.plist */,
@@ -81,7 +298,6 @@
 		04D44F6A1D4E2C0C0079F9E4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				04D44F6B1D4E2C0C0079F9E4 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,7 +382,6 @@
 			files = (
 				04D44F7A1D4E2C0D0079F9E4 /* LaunchScreen.storyboard in Resources */,
 				04D44F771D4E2C0D0079F9E4 /* Assets.xcassets in Resources */,
-				04D44F751D4E2C0D0079F9E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,23 +440,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D44F721D4E2C0C0079F9E4 /* ViewController.m in Sources */,
-				04D44F6F1D4E2C0C0079F9E4 /* AppDelegate.m in Sources */,
-				04D44F6C1D4E2C0C0079F9E4 /* main.m in Sources */,
+				049203621D4E3FFE00EE6116 /* main.m in Sources */,
+				049203611D4E3FFE00EE6116 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04D44F731D4E2C0D0079F9E4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04D44F741D4E2C0D0079F9E4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04D44F781D4E2C0D0079F9E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
