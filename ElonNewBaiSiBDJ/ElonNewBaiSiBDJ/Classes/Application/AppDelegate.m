@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TWETabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    
+    //创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //设置窗口根控制器
+    
+    TWETabBarController *tabBarVc = [[TWETabBarController alloc] init];
+    
+    self.window.rootViewController = tabBarVc;
+    
+    
+    //显示窗口
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
